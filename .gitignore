@@ -1,0 +1,112 @@
+# ============================================
+# Archivos de configuración IA
+# ============================================
+.codexrules
+.cursorrules
+.ai-stack-context.md
+
+**/.codexrules
+**/.cursorrules
+**/.ai-stack-context.md
+
+
+# ============================================
+# Documentación local
+# ============================================
+/Logo.jpeg
+/Historia_de_Usuario_*.pdf
+/Historia_de_Usuario_*.docx
+/colores.txt
+
+# Excel locales
+/*.xlsx
+
+
+# ============================================
+# Compiled output
+# ============================================
+dist/
+build/
+node_modules/
+
+# TypeScript build cache
+*.tsbuildinfo
+
+
+# ============================================
+# Logs
+# ============================================
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+
+# ============================================
+# OS
+# ============================================
+.DS_Store
+
+
+# ============================================
+# Tests / coverage
+# ============================================
+coverage/
+.nyc_output/
+
+
+# ============================================
+# IDEs and editors
+# ============================================
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+
+# ============================================
+# VS Code
+# ============================================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+
+# ============================================
+# Environment files
+# ============================================
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+
+# ============================================
+# Temp
+# ============================================
+.temp/
+.tmp/
+
+
+# ============================================
+# Runtime data
+# ============================================
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+
+# ============================================
+# Diagnostic reports
+# ============================================
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
